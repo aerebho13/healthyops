@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* NavBar */
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    display: flex;
+    height: 70px;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/* Products */
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.col-3{
+    flex-basis: 35%;
+    min-width: 450px;
+    margin-bottom: 20px;
+    transition: transform 0.5s;
+}
+.col-3{
+    text-align: center;
+    padding: 40px -30px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    margin: auto;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 30px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title:after{
+    content: '';
+    background: #ff9a3b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.row h4{
+    color: #555;
+    font-weight: normal;
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 5px;
+}
+.row h5{
+    color: #555;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.col-3 p{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.rating .fa-star{
+    color: #ff9a3b;
+}
+.rating .fa-star-half{
+    color: #ff9a3b;
+}
+.col-3:hover{
+    transform: translateY(-5px);
+}
+.row-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 50px;
+}
+select{
+    border: 1px solid #ff9a3b;
+}
+select{
+    outline: none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff9a3b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background: #ff9a3b;
+    color: white;
+}
+
+
+/* Footer */
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2{
+    flex-basis: 12%;
+    text-align: center;
+}
+.footer-col-1 img{
+    display: flex;
+    height: 70px;
+}
+ul{
+    list-style-type: none;
+}
